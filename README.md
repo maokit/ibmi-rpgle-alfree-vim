@@ -3,3 +3,5 @@
   
 `au! Syntax rpgle so ~/.vim/rpgle.vim`
   
+# rpgle.vim イメージ
+![rpgleimage](https://github.com/maokit/ibmi-rpgle-alfree-vim/blob/master/RpgleImage.png)
