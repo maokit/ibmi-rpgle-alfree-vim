@@ -15,8 +15,9 @@
 ![rpgleimage](https://github.com/maokit/ibmi-rpgle-alfree-vim/blob/master/RpgleImage.png)
 
 # その他
-もうすぐか？
-[COMMON]:https://connection.common.org/blogs/news/entry/hot_new_features_coming_in_ibm_i_technology_refreshes_in_november?lang=ja "Hot New Features Coming in IBM i Technology Refreshes in November"
+もうすぐか？[Hot New Features Coming in IBM i Technology Refreshes in November][1]
+  
+[1]:https://connection.common.org/blogs/news/entry/hot_new_features_coming_in_ibm_i_technology_refreshes_in_november?lang=ja "COMMON"
 
 Coding Beyond 80
  
