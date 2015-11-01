@@ -95,3 +95,16 @@ hi rpgStrings ctermfg=darkblue
 hi rpgReservString ctermfg=darkgreen
 " DBCSブランク強調
 hi ZSpace ctermbg=blue
+
+" vim
+set number
+set ruler
+set columns=170
+set lines=50
+set colorcolumn=80
+set tabstop=2
+set autoindent
+set expandtab
+set shiftwidth=2
+
+
