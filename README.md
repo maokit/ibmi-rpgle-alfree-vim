@@ -1,7 +1,8 @@
 # filetype の追加
 ~/.vim/filetype.vim に以下を追加（ファイルが無ければ作成）
+  
     augroup filetypedetect
-      au! BufRead,BufNewFile *.rpgle    setfiletype rpgle
+    	au! BufRead,BufNewFile *.rpgle    setfiletype rpgle
     augroup END
 
 # .vimrc への追記
