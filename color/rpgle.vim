@@ -100,7 +100,6 @@ hi rpgStrings ctermfg=darkblue
 hi rpgReservString ctermfg=darkgreen
 
 " vim 設定
-autocmd!
 set number
 set ruler
 set columns=170
