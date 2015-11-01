@@ -1,4 +1,3 @@
-" Vim syntax file
 set background=dark
 hi clear
 if exists("syntax_on")
@@ -10,6 +9,9 @@ endif
 " 大文字/小文字を無視
 sy case ignore
 
+"---------------------------
+" RPGLE All Free Syntax 設定 
+"---------------------------
 " 1-7 桁目の表示
 sy match rpg7Comment /^\s\s\s\s\s\s\s/ 
 " コメント行
@@ -49,6 +51,9 @@ sy match rpgOperand /[+=*<>():;\-\.,]/
 " 予約語
 sy keyword rpgReservString stgmdl teraspace snglvl new caller none src srcstmt ext no inputonly usrctl libcrtaut all change use exclude excp list nodatetime datetime nographic graphic novarchar varchar novargraphic vargraphic input dump xmlsax yes jobrun pep entryexit full maxdigits resdecpos nozoned zoned noinputpacked inputpacked job noinzofl inzofl nocvtdata cvtdata basic noxref xref nogen gen noseclvl seclvl noshowcpy showcpy noexpdds expdds noext noshowskp showskp nodebugio debugio nounref unref pcml module nocol col hex langidunq langidshr inherit snglvl srcmbrtxt blank concurrent serialize user owner nocvt cvt extdesc char only file noind compat output update delete java cl cwiden cnowiden nopass omit varsize string trim rightadj nullind next proc allthread in inlr on off 
 
+"-----------------------------------------
+" 色の設定 (based: mac vim xterm-256color)
+"-----------------------------------------
 set cursorline
 "hi clear CursorLine
 "-----
@@ -93,10 +98,9 @@ hi rpgOperand ctermfg=darkgreen
 hi rpgStrings ctermfg=darkblue
 " 予約語
 hi rpgReservString ctermfg=darkgreen
-" DBCSブランク強調
-hi ZSpace ctermbg=blue
 
-" vim
+" vim 設定
+autocmd!
 set number
 set ruler
 set columns=170
@@ -106,5 +110,6 @@ set tabstop=2
 set autoindent
 set expandtab
 set shiftwidth=2
-
-
+" DBCSブランク強調
+autocmd VimEnter,WinEnter,BufRead,BufNewFile,BufReadPre,BufReadPost * match ZSpace /　/
+hi ZSpace ctermbg=blue
