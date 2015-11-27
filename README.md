@@ -3,7 +3,7 @@ IBM i RPGLE を ALL FREE で記述する場合に使う vim Syntax です。
   
 ## 主な設定
 * highlight
-* 8-80桁対応
+* 8-80桁対応を無効化(Removal of the 8-80 column restriction)
 
 
 # rpgle.vim の使い方
