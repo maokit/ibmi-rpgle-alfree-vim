@@ -13,7 +13,7 @@ sy case ignore
 " RPGLE All Free Syntax 設定 
 "---------------------------
 " 1-7 桁目の表示
-sy match rpg7Comment /^\s\s\s\s\s\s\s/ 
+" sy match rpg7Comment /^\s\s\s\s\s\s\s/ 
 " コメント行
 sy region cbLineComment start=+//+ end=+$+
 " /COPY
@@ -104,7 +104,8 @@ set number
 set ruler
 set columns=170
 set lines=50
-set colorcolumn=80
+" 80桁目の強調
+" set colorcolumn=80
 set tabstop=2
 set autoindent
 set expandtab
